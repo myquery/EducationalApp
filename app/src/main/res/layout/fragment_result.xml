@@ -1,0 +1,52 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.educationalapp.ResultFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:padding="20dp">
+
+    <TextView
+        android:id="@+id/respondent_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/thanks_for_participating"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/respondent_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:id="@+id/respondent_subject"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/respondent_score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textColor="@color/deepBlue"
+        android:textSize="25sp"/>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+

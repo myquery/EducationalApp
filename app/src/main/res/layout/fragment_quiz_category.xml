@@ -1,0 +1,496 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.educationalapp.QuizCategoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#f6f6f6"
+        android:textColor="#000">
+
+        <TextView
+            android:id="@+id/quiz_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/agriculture"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/agric_question_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/plant_disease"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/agric_group_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+            android:id="@+id/leucoytes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leucoytes"/>
+
+            <RadioButton
+            android:id="@+id/aspergillosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aspergillosis"/>
+
+            <RadioButton
+                android:id="@+id/chlorosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chlorosis"/>
+
+            <RadioButton
+                android:id="@+id/axonopus_compressus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/axonopus_compressus"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/plant_legumes"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/agric_group_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/legumes_soil_surface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rays_of_the_sun"/>
+
+            <RadioButton
+                android:id="@+id/legumes_leafy_crops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leafy_crops_eaten_by_man"/>
+
+            <RadioButton
+                android:id="@+id/legumes_grown_for_seeds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crops_their_seeds"/>
+
+            <RadioButton
+                android:id="@+id/legumes_refreshment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crops_refreshment"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/beverages_plant_type"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/beverage_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sorgghum"/>
+
+            <RadioButton
+                android:id="@+id/beverage_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jute"/>
+
+            <RadioButton
+                android:id="@+id/beverage_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tobacco"/>
+
+            <RadioButton
+                android:id="@+id/beverage_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shea_butter"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/organic_fertilizer"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/organic_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/one_plant_nutrient"/>
+
+            <RadioButton
+                android:id="@+id/organic_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/good_soil_condition"/>
+
+            <RadioButton
+                android:id="@+id/organic_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/high_level_of_nutrient"/>
+
+            <RadioButton
+                android:id="@+id/organic_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/three_plant_nutrients"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/importantce_loamy_soil"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/loamy_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/best_soil_for_agriculture"/>
+
+            <RadioButton
+                android:id="@+id/loamy_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/it_good_for_agriculture"/>
+
+            <RadioButton
+                android:id="@+id/loamy_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/building_farm_houses"/>
+
+            <RadioButton
+                android:id="@+id/loamy_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/water_holding_capacity"/>
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/fungal_disease"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/fungal_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aspergillosis_fungal"/>
+
+            <RadioButton
+                android:id="@+id/fungal_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coccidiosis"/>
+
+            <RadioButton
+                android:id="@+id/fungal_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trypanosomaiase"/>
+
+            <RadioButton
+                android:id="@+id/fungal_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brucellosis"/>
+        </RadioGroup>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_seven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/photosynthesis"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_seven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/photosynthesis_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mineral_content"/>
+
+            <RadioButton
+                android:id="@+id/photosynthesis_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/colour_of_leaves"/>
+
+            <RadioButton
+                android:id="@+id/photosynthesis_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/electrical_conductivity"/>
+
+            <RadioButton
+                android:id="@+id/photosynthesis_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ferrous Oxide"/>
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/male_reporductive_system"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/male_organ_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/myomrtriem"/>
+
+            <RadioButton
+                android:id="@+id/male_organ_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ductus Deferens"/>
+
+            <RadioButton
+                android:id="@+id/male_organ_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_oviduct"/>
+
+            <RadioButton
+                android:id="@+id/male_organ_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/esophagus"/>
+        </RadioGroup>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_nine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ruminant_digestive_tract"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_nine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/ruminant_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rumen"/>
+
+            <RadioButton
+                android:id="@+id/ruminant_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cecum"/>
+
+            <RadioButton
+                android:id="@+id/ruminant_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gizzard"/>
+
+            <RadioButton
+                android:id="@+id/ruminant_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cervix"/>
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/agric_question_ten"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/monogastric_animal"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/agric_group_ten"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/monogastric_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="They can synthesize their own protein"/>
+
+            <RadioButton
+                android:id="@+id/monogastric_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/they_can_regurgitate"/>
+
+            <RadioButton
+                android:id="@+id/monogastric_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cellullose_and_fiberes"/>
+
+            <RadioButton
+                android:id="@+id/monogastric_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/they_has_rumen"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/submit_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Quiz"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

@@ -1,0 +1,487 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.educationalapp.QuizCategoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:background="#f2f2f2">
+
+        <TextView
+            android:id="@+id/quiz_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/information_technologies"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/ict_question_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/acronym_wan"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/wireless_access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wireless_access_network"/>
+
+            <RadioButton
+                android:id="@+id/wide_area_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wide_network"/>
+
+            <RadioButton
+                android:id="@+id/window_access_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/window_access_network"/>
+
+            <RadioButton
+                android:id="@+id/wide_access_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wide_access_network"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/html_stands_for_what"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/high_transport_media_layer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/high_transport_media_layer"/>
+
+            <RadioButton
+                android:id="@+id/hypertext_markup_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hypertext_markup_language"/>
+
+            <RadioButton
+                android:id="@+id/hypertext_media_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hypertext_media_language"/>
+
+            <RadioButton
+                android:id="@+id/hypertext_media_layer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hypertext_media_layer"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/programming_language"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/xml_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xml_programming_language"/>
+
+            <RadioButton
+                android:id="@+id/python_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/python_programming_language"/>
+
+            <RadioButton
+                android:id="@+id/java_langauge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/java_programming_langauge"/>
+
+            <RadioButton
+                android:id="@+id/nodejs_langauge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nodejs"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/divided_into_four_components"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/input_output"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/input_output_processor_and_hardware"/>
+
+            <RadioButton
+                android:id="@+id/hardware_operation_system"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hardware_operating_system_application_programs_and_users"/>
+
+            <RadioButton
+                android:id="@+id/cpu_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cpu_network_structure_memory_and_file_system"/>
+
+            <RadioButton
+                android:id="@+id/process_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/process_counter_and_i_o_status_informantion"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/device_immovable_media_and_can_store_large_gigabyte_of_data"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/disk_drives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disk_drives"/>
+
+            <RadioButton
+                android:id="@+id/hard_disk_drive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hard_disk_drives"/>
+
+            <RadioButton
+                android:id="@+id/floppy_disk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/floppy_disk_drive"/>
+
+            <RadioButton
+                android:id="@+id/flash_drive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flash_disk_drive"/>
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/who_invented_the_wide_world_wild"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/lara_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lara_page"/>
+
+            <RadioButton
+                android:id="@+id/bill_gate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bill_gate"/>
+
+            <RadioButton
+                android:id="@+id/tim_berner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tim_berner"/>
+
+            <RadioButton
+                android:id="@+id/mark_zurkerberg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mark_zurkerberg"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/what_is_a_process_as_it_relates_to_system_operaions"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_seven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/program_execution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_process_is_a_program_in_execution_task"/>
+
+            <RadioButton
+                android:id="@+id/process_interconnection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_process_is_the_interconnection_of_varied_system_components"/>
+
+            <RadioButton
+                android:id="@+id/user_program_install"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_process_is_a_step_taken_to_install_a_user_program_into_the_computer_system"/>
+
+            <RadioButton
+                android:id="@+id/system_architecture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_process_defines_the_computer_system_wide_architecture"/>
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/what_is_the_full_meaning_of_xml"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/exchange_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_media_language"/>
+
+            <RadioButton
+                android:id="@+id/extensible_markup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/extensible_markup_language"/>
+
+            <RadioButton
+                android:id="@+id/xerox_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xerox_media_language"/>
+
+            <RadioButton
+                android:id="@+id/exchangeble_markup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exchangeble_markup_language"/>
+        </RadioGroup>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_nine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/which_one_among_these_is_dubbed_the_brain_of_the_computer"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_nine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/ram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/read_access_memory"/>
+
+            <RadioButton
+                android:id="@+id/cpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/central_process_unit"/>
+
+            <RadioButton
+                android:id="@+id/motherboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/motherboard"/>
+
+            <RadioButton
+                android:id="@+id/monitor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monitor"/>
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/ict_question_ten"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/which_of_these_protocol_that_connects_a_computer_over_a_network_from_one_country_to_another"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/ict_group_ten"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/metropolitan_area_network"/>
+
+            <RadioButton
+                android:id="@+id/wan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wide_area_network"/>
+
+            <RadioButton
+                android:id="@+id/lan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/local_area_network"/>
+
+            <RadioButton
+                android:id="@+id/wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wireless_fidelity"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/submit_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Quiz"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
